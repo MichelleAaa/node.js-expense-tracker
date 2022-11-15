@@ -73,9 +73,9 @@ Next, please navigate to the backend folder and install the main packages for th
 
 `npm install`
 
-Next, you need to create your own MongoDB database, if you don't have one already. You can follow the installation instruction [here](https://www.mongodb.com/cloud/atlas). Alternatively, you could set up MongoDB locally. Please visit [here](https://www.prisma.io/dataguide/mongodb/setting-up-a-local-mongodb-database) for instructions.
+Next, you need to set up MongoDB locally. Please visit [here](https://www.prisma.io/dataguide/mongodb/setting-up-a-local-mongodb-database) for instructions.
 
-Once MongoDB is set up, please ensure it's running (such as if you have installed it locally, it should be running in the terminal).
+Once MongoDB is set up, please ensure it's running in a separate terminal session.
 
 Now that all required installations are in place, to start the front-end, please open the main folder in the terminal and use the following command:
 
