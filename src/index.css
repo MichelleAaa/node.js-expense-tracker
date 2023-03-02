@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 :root {
   --main-light: #b9c7de;
   --main-medium: #3E5C76;
@@ -44,7 +51,9 @@ h3 {
 
 /* Header Section */
 
-.balance, .income, .expense {
+.balance,
+.income,
+.expense {
   padding-top: 10px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -74,12 +83,14 @@ h3 {
   font-size: 1.7rem;
   background-color: var(--main-medium);
   color: white;
+  -webkit-box-shadow: var(--box-shadow-small);
   box-shadow: var(--box-shadow-small);
 }
 
 .entry-btn:hover {
   color: white;
   background-color: #3E5C76;
+  -webkit-box-shadow: var(--box-shadow-large);
   box-shadow: var(--box-shadow-large);
 }
 
@@ -90,11 +101,13 @@ h3 {
 }
 
 .history-delete-btn:hover {
+  -webkit-box-shadow: var(--box-shadow-small);
   box-shadow: var(--box-shadow-small);
 }
 
 .history-item {
   border-radius: 17px;
+  -webkit-box-shadow: var(--box-shadow-large);
   box-shadow: var(--box-shadow-large);
   margin: 30px;
   padding: 6px;
@@ -102,6 +115,7 @@ h3 {
 
 .history-item-btn:hover {
   border: 1px solid rgb(188, 185, 185);
+  -webkit-box-shadow: var(--box-shadow-small);
   box-shadow: var(--box-shadow-small);
 }
 
@@ -136,6 +150,7 @@ h3 {
 .transaction-update-cancel {
   border: 1px solid rgb(188, 185, 185);
   font-size: 1rem;
+  -webkit-box-shadow: var(--box-shadow-small);
   box-shadow: var(--box-shadow-small);
 }
 
